@@ -1,0 +1,49 @@
+
+# BEGIN Gzip
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</IfModule>
+# END Gzip
+
+# BEGIN EXPIRES
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 10 days"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/plain "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType application/x-javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType application/x-icon "access plus 1 year"
+</IfModule>
+# END EXPIRES
+
+
+RewriteEngine on
+RewriteRule ^index index.php
+RewriteRule ^dashboard dashboard.php
+RewriteRule ^staff staff.php
+RewriteRule ^create-staff create-staff.php
+#RewriteRule ^buyer buyer.php
+#RewriteRule ^create-buyer create-buyer.php
+#RewriteRule ^seller seller.php
+#RewriteRule ^create-seller create-seller.php
+#RewriteRule ^create-purchase create-purchase.php
+#RewriteRule ^purchase purchase.php
+#RewriteRule ^create-sales-point create-salles-point.php
+#RewriteRule ^sales-point salles-point.php
+RewriteRule ^create-project create-project.php
+RewriteRule ^project project.php
+RewriteRule ^viewprint-(.*) viewprint.php?check=$1
+RewriteRule ^viewprintnew-(.*) viewprintnew.php?check=$1
+RewriteRule ^viewdocument-(.*) document.php?check=$1
+RewriteRule ^viewphotoprint-(.*) viewphotoprint.php?check=$1
+#RewriteRule ^company-sales company-seller.php
+RewriteRule ^create-bank create-bank.php
+RewriteRule ^create-branch create-branch.php
+RewriteRule ^branch branch.php
+RewriteRule ^bank bank.php
+RewriteRule ^logout logout.php
+
