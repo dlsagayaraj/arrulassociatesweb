@@ -3,8 +3,8 @@
 error_reporting(0);
 
 define("DB_HOST", "localhost");
-define("DB_USER", "kkpzpdrfvp");
-define("DB_PASSWORD", "yQAnrue5C3");
+define("DB_USER", "arrulassociate");
+define("DB_PASSWORD", "Arrulweb@01");
 define("DB_NAME", "kkpzpdrfvp");
 session_start();	
 ini_set('session.gc_maxlifetime', 36000);
