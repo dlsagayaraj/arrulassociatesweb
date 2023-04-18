@@ -2041,7 +2041,7 @@ input[type=number] {
     margin-left: 7px;
     width: 23%;background: #2250d2;
 	
-"><a href="https://www.arrulassociates.com/test/viewprintnew-<?php echo $_REQUEST['stepid'];?>" target="blank" style="    padding-left: 25%;
+"><a href="/viewprintnew-<?php echo $_REQUEST['stepid'];?>" target="blank" style="    padding-left: 25%;
 							  padding-right: 56%;color:white;"> Preview</a> </li>
 							  <?php } ?>					  
 					
@@ -6388,7 +6388,7 @@ Sump<input  class="sumpclass" id="sump" name="sump" type="text" value="<?php ech
 	
 	<?php if($_REQUEST['stepid']!='')
 	{?>
-	<iframe  width="100%" height="100%" src="https://www.arrulassociates.com/test/viewprintnew-<?php echo $_REQUEST['stepid'];?>" style="width: 100% !important;"></iframe>	
+	<iframe  width="100%" height="100%" src="/viewprintnew-<?php echo $_REQUEST['stepid'];?>" style="width: 100% !important;"></iframe>	
 	<?php } ?>
 	
 	</div>

@@ -21,7 +21,7 @@ $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 $GLOBALS['connect']=$conn;
 
 
-$web_url="https://www.arrulassociates.com/test/";
+$web_url="/";
 
 
 function select_value_other($table_name,$field_name,$id_value)

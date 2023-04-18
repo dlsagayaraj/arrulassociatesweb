@@ -2266,7 +2266,7 @@ input[type=number] {
     margin-left: 7px;
     width: 23%;background: #2250d2;
 	
-"><a href="https://www.arrulassociates.com/test/viewprintnew-<?php echo $_REQUEST['stepid'];?>" target="blank" style="    padding-left: 25%;
+"><a href="/viewprintnew-<?php echo $_REQUEST['stepid'];?>" target="blank" style="    padding-left: 25%;
 							  padding-right: 56%;color:white;">  Preview</a> </li>
 							  <?php } ?>	
  
@@ -2276,7 +2276,7 @@ input[type=number] {
     margin-left: 7px;
     width: 23%;background: #2250d2;
 	
-"><a href="https://www.arrulassociates.com/test/viewphotoprint-<?php echo $_REQUEST['stepid'];?>" target="blank" style="    padding-left: 25%;
+"><a href="/viewphotoprint-<?php echo $_REQUEST['stepid'];?>" target="blank" style="    padding-left: 25%;
 							  padding-right: 56%;color:white;">  Preview</a> </li>
 							  <?php } ?>								  
 					

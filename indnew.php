@@ -174,13 +174,13 @@ section h1 {
     <section class="photographer">
       <img src="app-assets/images/logo/logo231.png">
       <h2 style="color: White;">ARRUL ASSOCIATES</h2>
-      <div class="out-border-1"><a href="/project?type=ARRUL-ASSOCIATES" class="button-1">go to ARRUL ASSOCIATES</a> </div>
+      <div class="out-border-1"><a href="/project.php?type=ARRUL-ASSOCIATES" class="button-1">go to ARRUL ASSOCIATES</a> </div>
     </section>
 
     <section class="designer">
       <img src="app-assets/images/logo/logo231.png">
       <h2 style="color: White;">EVEREST CONSTRUCTION</h2>
-      <div class="out-border-1"><a href="/project?type=EVEREST-CONSTRUCTION" class="button-1">go to EVEREST CONSTRUCTION</a> </div>
+      <div class="out-border-1"><a href="/project.php?type=EVEREST-CONSTRUCTION" class="button-1">go to EVEREST CONSTRUCTION</a> </div>
     </section>
 
 
