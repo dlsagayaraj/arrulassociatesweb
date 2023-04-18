@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6
             <ul class="dropdown-content" id="profile-dropdown">
 
 			    <li><a class="grey-text text-darken-1">Welcome <?php echo $_SESSION["user_name"]; ?></a></li>
-              <li><a class="grey-text text-darken-1" href="<?php echo $web_url; ?>logout"><i class="material-icons">keyboard_tab</i> Logout</a></li>
+              <li><a class="grey-text text-darken-1" href="<?php echo $web_url; ?>logout.php"><i class="material-icons">keyboard_tab</i> Logout</a></li>
             </ul>
           </div>
 
@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6
 {?>
 <aside class="sidenav-main nav-expanded nav-lock nav-collapsible sidenav-dark gradient-45deg-deep-purple-blue sidenav-gradient sidenav-active-rounded">
       <div class="brand-sidebar">
-        <h1 class="logo-wrapper"><a class="brand-logo darken-1" href="<?php echo $web_url; ?>dashboard" style=""><img class="hide-on-med-and-down " src="<?php echo $web_url; ?>app-assets/images/logo/logo.png" alt="materialize logo" style="color:white;    width: 14%;   "/><p style="font-family: 'Berkshire Swash' !important;
+        <h1 class="logo-wrapper"><a class="brand-logo darken-1" href="<?php echo $web_url; ?>dashboard.php" style=""><img class="hide-on-med-and-down " src="<?php echo $web_url; ?>app-assets/images/logo/logo.png" alt="materialize logo" style="color:white;    width: 14%;   "/><p style="font-family: 'Berkshire Swash' !important;
     font-size: 25px;
     margin-top: -24px;
     margin-left: 40px;">Arrul Associates</p></a></h1>
@@ -222,28 +222,28 @@ h1, h2, h3, h4, h5, h6
       <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
 	  
  <li class="bold" style="        border-bottom: 1px solid #f9b517;
-    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>dashboard"><i class="material-icons">person_outline</i><span class="menu-title" data-i18n="ToDo">Dashbord</span></a>
+    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>dashboard.php"><i class="material-icons">person_outline</i><span class="menu-title" data-i18n="ToDo">Dashbord</span></a>
         </li>
 		
 		
         <li class="bold" style="        border-bottom: 1px solid #f9b517;
-    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>staff" ><i class="material-icons">person_outline</i><span class="menu-title" data-i18n="ToDo">STAFF</span></a>
+    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>staff.php" ><i class="material-icons">person_outline</i><span class="menu-title" data-i18n="ToDo">STAFF</span></a>
         </li>
 		
 			 <li class="bold" style="        border-bottom: 1px solid #f9b517;
-    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>create-project"><i class="material-icons">timeline</i><span class="menu-title" data-i18n="ToDo">CREATE PROJECT</span></a>
+    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>create-project.php"><i class="material-icons">timeline</i><span class="menu-title" data-i18n="ToDo">CREATE PROJECT</span></a>
         </li>
 		 
 		 <li class="bold" style="       border-bottom: 1px solid #f9b517;
-    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>project"><i class="material-icons">timeline</i><span class="menu-title" data-i18n="ToDo">PROJECT</span></a>
+    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>project.php"><i class="material-icons">timeline</i><span class="menu-title" data-i18n="ToDo">PROJECT</span></a>
         </li>
 		
 		 <li class="bold" style="        border-bottom: 1px solid #f9b517;
-    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>bank"><i class="material-icons">timeline</i><span class="menu-title" data-i18n="ToDo">BANK</span></a>
+    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>bank.php"><i class="material-icons">timeline</i><span class="menu-title" data-i18n="ToDo">BANK</span></a>
         </li>
         
  <li class="bold" style="        border-bottom: 1px solid #f9b517;
-    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>branch"><i class="material-icons">timeline</i><span class="menu-title" data-i18n="ToDo">BRANCH</span></a>
+    border-radius: 4px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>branch.php"><i class="material-icons">timeline</i><span class="menu-title" data-i18n="ToDo">BRANCH</span></a>
         </li>
 <?php $type=str_replace("-"," ",$_SESSION["typenew"]);
 if($type=='EVEREST CONSTRUCTION')
@@ -251,7 +251,7 @@ if($type=='EVEREST CONSTRUCTION')
  <li class="bold" style="      
     border-radius: 4px;
     background: #f0b019;
-    margin-top: 50px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>project?type=ARRUL-ASSOCIATES"><span class="menu-title" data-i18n="ToDo"><i class="material-icons">keyboard_backspace</i>ARRUL ASSOCIATES</span></a>
+    margin-top: 50px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>project.php?type=ARRUL-ASSOCIATES"><span class="menu-title" data-i18n="ToDo"><i class="material-icons">keyboard_backspace</i>ARRUL ASSOCIATES</span></a>
         </li>
 <?php } ?>	
 <?php
@@ -260,7 +260,7 @@ if($type=='ARRUL ASSOCIATES')
 		 <li class="bold" style="           
     border-radius: 4px;
     background: #f0b019;
-    margin-top: 50px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>project?type=EVEREST-CONSTRUCTION"><span class="menu-title" data-i18n="ToDo"><i class="material-icons">keyboard_backspace</i>EVEREST CONSTRUCTION</span></a>
+    margin-top: 50px;"><a class="waves-effect waves-cyan " href="<?php echo $web_url; ?>project.php?type=EVEREST-CONSTRUCTION"><span class="menu-title" data-i18n="ToDo"><i class="material-icons">keyboard_backspace</i>EVEREST CONSTRUCTION</span></a>
         </li>
 <?php } ?>
 
