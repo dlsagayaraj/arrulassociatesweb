@@ -191,14 +191,14 @@ section h1 {
       <img src="img/senior-logo.png">
       <img src="https://media.istockphoto.com/photos/concept-of-selling-a-house-a-hand-is-holding-a-model-house-above-picture-id1148812518?k=20&m=1148812518&s=612x612&w=0&h=1iVuk71F9WWetInhlLkjKxWUDns5bTkc2BHpMIKm3FE=">
       <h2>ARRUL ASSOCIATES</h2>
-      <div class="out-border-1"><a href="https://www.arrulassociates.com/test/project?type=ARRUL-ASSOCIATES" class="button-1">go to site</a> </div>
+      <div class="out-border-1"><a href="/project?type=ARRUL-ASSOCIATES" class="button-1">go to site</a> </div>
     </section>
 
     <section class="designer">
       <img src="img/junior-logo.png">
       <img src="https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070__480.jpg">
       <h2 style="color: #c13c3f;">EVEREST CONSTRUCTION</h2>
-      <div class="out-border-1"><a href="https://www.arrulassociates.com/test/project?type=EVEREST-CONSTRUCTION" class="button-1">go to site</a> </div>
+      <div class="out-border-1"><a href="/project?type=EVEREST-CONSTRUCTION" class="button-1">go to site</a> </div>
     </section>
 
   </div>
